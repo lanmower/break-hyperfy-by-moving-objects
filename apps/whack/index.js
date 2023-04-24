@@ -23,19 +23,19 @@ export default function Heads() {
             <model
               key={1}
               ref={headRef[0]}
-              src="whackbox.glb"
+              src="whackhead.glb"
               position={headOffset[0]}
             />
             <model
-              key={1}
+              key={2}
               ref={headRef[1]}
-              src="whackbox.glb"
+              src="whackhead.glb"
               position={headOffset[1]}
             />
             <model
-              key={1}
+              key={3}
               ref={headRef[2]}
-              src="whackbox.glb"
+              src="whackhead.glb"
               position={headOffset[2]}
             />
     </app>
